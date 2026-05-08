@@ -1,4 +1,15 @@
-frontend/node_modules/
-frontend/dist/
+# Ignore dependencies for both
 backend/node_modules/
+frontend/node_modules/
+
+# Ignore environment variables
 backend/.env
+frontend/.env
+.env
+
+# Ignore build folders
+frontend/dist/
+frontend/build/
+
+# System files
+.DS_Store
